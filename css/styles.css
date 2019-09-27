@@ -1,0 +1,324 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    margin: 0px;
+	padding: 0px;   
+
+}
+
+body{
+	width: 720px;
+	height: 720px;
+}
+@font-face{
+	font-family: palacho;
+	src: url(../fonts/blocktastic.otf);
+}
+
+.container{
+	background-image: url(../images/PaladinsLaunch_XboxThumb-hero.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center; 
+
+}
+.logo-text{
+	text-align: center;
+
+}
+.logo{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.pala{
+	width: 400px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.texto{
+	font-family: palacho;
+	margin-top: 10px;
+	margin-left: 10px;
+    margin-right: 10px;
+	color: black;
+	background: rgba(255, 255, 255, .2);
+
+}
+.texto h1{
+	font-size: 90px;
+}
+.texto p{
+	color: #050505;
+	font-size: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	margin-top: 30px;
+	
+}
+.cuadro{
+	background-color: red;
+	width: 300px;
+	height: 300px;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+
+}
+.tabla{
+	display: flex;
+	flex-direction: column;
+}
+.container-tabla{
+	width: 720px;
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#inspa{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 70px;
+}
+#insta-logo{
+	width: 90px;
+}
+@font-face{
+	font-family: inst;
+	src: url(../fonts/russo.ttf);
+}
+#arroi{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 20px;
+	font-family: inst;
+	font-size: 29px;
+}
+#foll{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 10px;
+	
+}
+#foll a{
+	text-decoration: none;
+	font-family: inst;
+	font-size: 15px;
+	color: #050505;
+}
+#chams{
+	height: 300px;
+	background: url(../images/apps.48504.71195428370171952.436387e7-636f-4e23-aa3b-c9b3876aeaa4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+#chams p{
+	font-family: inst;
+	font-size: 20px;
+	text-align: center;
+	color: #f0f0f0;
+	padding-top: 250px;
+}
+#siege{
+	height: 300px;
+	background: url(../images/siege.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#siege p{
+	font-family: inst;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 260px;
+}
+#twit{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 70px;
+}
+#twi-logo{
+	width: 90px;
+}
+#arrot{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 20px;
+	font-family: inst;
+	font-size: 29px;
+}
+#segi{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 10px;
+}
+#segi a{
+	text-decoration: none;
+	font-family: inst;
+	font-size: 15px;
+	color: #050505;
+}
+#fac{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 70px;
+}
+#face-logo{
+	width: 90px;
+}
+#facename{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 20px;
+	font-family: inst;
+	font-size: 29px;
+}
+#busq{
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 10px;
+}
+#busq a{
+	text-decoration: none;
+	font-family: inst;
+	font-size: 15px;
+	color: #050505;
+}
+.team{
+	height: 300px;
+	background: url(../images/onslaught.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.team p{
+	font-family: inst;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 260px;
+	
+}
+.vermas{
+	text-align: center;
+}
+.msg{
+	font-family: palacho;
+	margin-top: 10px;
+	margin-left: 10px;
+    margin-right: 10px;
+	color: #ffffff;
+
+}
+.msg h1{
+	font-size: 80px;
+}
+.msg p{
+	font-size: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+	
+}
+#botma{
+	text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #000000;
+    background-color:#0075ab;
+    border-radius: 6px;
+	font-family: inst;
+	margin-bottom: 20px;
+}
+#botma:hover{
+	background-color:  #009dc3;
+	transition-duration: 0.5s;
+}
+footer{
+	margin-top: 30px;
+	background-color: #000000;
+}
+.logos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+#feis{
+	width: 50px;
+	padding-right: 20px;
+}
+#tuit{
+	width: 50px;
+	padding-right: 20px;
+}
+#ista{
+	width: 50px;
+}
+.textof{
+	
+	text-align: center;
+	font-family: inst;
+	font-size: 20px;
+	color: #ffffff;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
