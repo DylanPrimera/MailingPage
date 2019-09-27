@@ -47,16 +47,17 @@ table {
 	padding: 0px;   
 
 }
-
+/* Declaro el tamaño que tendrá el body 720x720 según las especificaciones dadas */
 body{
 	width: 720px;
 	height: 720px;
 }
+/* Importo una fuente pesonalizada para el primer mensaje*/
 @font-face{
 	font-family: palacho;
 	src: url(../fonts/blocktastic.otf);
 }
-
+/* La inserto un fondo personalizado al container, que se ajuste al tamaño del contendor*/
 .container{
 	background-image: url(../images/PaladinsLaunch_XboxThumb-hero.png);
 	background-repeat: no-repeat;
@@ -64,20 +65,24 @@ body{
     background-position: center; 
 
 }
+/* Pongo centrado todo el contenido del mensaje*/
 .logo-text{
 	text-align: center;
 
 }
+/*en esta parte centro el logo*/
 .logo{
 	display: flex;
   	justify-content: center;
   	align-items: center;
 }
+/* dimensiones y cuanto espacio tendrá el logo */
 .pala{
 	width: 400px;
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
+/* asigno el tipo de fuente que tendrá el mensaje y le doy unas dimensiones */
 .texto{
 	font-family: palacho;
 	margin-top: 10px;
@@ -87,9 +92,11 @@ body{
 	background: rgba(255, 255, 255, .2);
 
 }
+/* aumento el tamaño de la fuente en el título */
 .texto h1{
 	font-size: 90px;
 }
+/* Asigno un color al texto y unas dimensiones*/
 .texto p{
 	color: #050505;
 	font-size: 30px;
@@ -99,20 +106,23 @@ body{
 	margin-top: 30px;
 	
 }
+/* en esta parte asigno el tamaño de cada cuadro de la tabla del contenido principal*/
 .cuadro{
-	background-color: red;
 	width: 300px;
 	height: 300px;
 }
+/* Aqui les asigno la direccion fila que serán cada cuadro */
 .row{
 	display: flex;
 	flex-direction: row;
 
 }
+/* al contenedor tabla le asigno direccion column para que estén los cuadros de forma vertical */
 .tabla{
 	display: flex;
 	flex-direction: column;
 }
+/* finalmente asigno el tamaño a la tabla y con el contenido y texto centrados*/
 .container-tabla{
 	width: 720px;
 	margin-top: 60px;
@@ -120,6 +130,7 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+/* atributos del primer cuadro */
 #inspa{
 	display: flex; 
 	justify-content: center; 
@@ -129,10 +140,12 @@ body{
 #insta-logo{
 	width: 90px;
 }
+/* importo un nuevo tipo de fuente para la tabla  */
 @font-face{
 	font-family: inst;
 	src: url(../fonts/russo.ttf);
 }
+/* atributos del texto del primer cuadro */
 #arroi{
 	display: flex; 
 	justify-content: center; 
@@ -148,12 +161,14 @@ body{
 	margin-top: 10px;
 	
 }
+/* atributos del enlace */
 #foll a{
 	text-decoration: none;
 	font-family: inst;
 	font-size: 15px;
 	color: #050505;
 }
+/* atributos del segundo cuadro cuadro */
 #chams{
 	height: 300px;
 	background: url(../images/apps.48504.71195428370171952.436387e7-636f-4e23-aa3b-c9b3876aeaa4.jpg);
@@ -169,6 +184,7 @@ body{
 	color: #f0f0f0;
 	padding-top: 250px;
 }
+/* atributos del tercer cuadro */
 #siege{
 	height: 300px;
 	background: url(../images/siege.jpg);
@@ -183,6 +199,7 @@ body{
 	color: #ffffff;
 	padding-top: 260px;
 }
+/* atributos del cuarto cuadro */
 #twit{
 	display: flex; 
 	justify-content: center; 
@@ -212,6 +229,7 @@ body{
 	font-size: 15px;
 	color: #050505;
 }
+/* atributos del quinto cuadro */
 #fac{
 	display: flex; 
 	justify-content: center; 
@@ -241,6 +259,7 @@ body{
 	font-size: 15px;
 	color: #050505;
 }
+/* atributos del ultimo cuadro */
 .team{
 	height: 300px;
 	background: url(../images/onslaught.jpg);
@@ -256,9 +275,11 @@ body{
 	padding-top: 260px;
 	
 }
+/* centro el contenido del ultimo mensaje */
 .vermas{
 	text-align: center;
 }
+/* uso un tipo de fuente descargado y le declaro dimensiones*/
 .msg{
 	font-family: palacho;
 	margin-top: 10px;
@@ -267,9 +288,11 @@ body{
 	color: #ffffff;
 
 }
+/* modifico el tamaño de la fuente del titulo */
 .msg h1{
 	font-size: 80px;
 }
+/* modifico el parrafo */
 .msg p{
 	font-size: 30px;
 	padding-left: 40px;
@@ -278,6 +301,7 @@ body{
 	margin-top: 30px;
 	
 }
+/* parte donde hago el boton de redirección */
 #botma{
 	text-decoration: none;
     padding: 10px;
@@ -288,20 +312,24 @@ body{
 	font-family: inst;
 	margin-bottom: 20px;
 }
+/* hover para cuando pase el cursor sobre el botón */
 #botma:hover{
 	background-color:  #009dc3;
 	transition-duration: 0.5s;
 }
+/* dimensiones del footer */
 footer{
 	margin-top: 30px;
 	background-color: #000000;
 }
+/* pongo en fila los logos del footer */
 .logos{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding-top: 20px;
 }
+/* separo algunos logos */
 #feis{
 	width: 50px;
 	padding-right: 20px;
@@ -313,6 +341,7 @@ footer{
 #ista{
 	width: 50px;
 }
+/* centro el texto del footer y le doy dimensiones */
 .textof{
 	
 	text-align: center;
