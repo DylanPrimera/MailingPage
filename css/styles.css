@@ -45,7 +45,7 @@ table {
 *{
     margin: 0px;
 	padding: 0px;   
-
+	
 }
 /* Declaro el tamaño que tendrá el body 720x720 según las especificaciones dadas */
 body{
@@ -59,10 +59,8 @@ body{
 }
 /* La inserto un fondo personalizado al container, que se ajuste al tamaño del contendor*/
 .container{
-	background-image: url(../images/PaladinsLaunch_XboxThumb-hero.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-    background-position: center; 
+	background: rgb(2,0,36);
+	background: linear-gradient(0deg, rgba(2,0,36,1) 37%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
 
 }
 /* Pongo centrado todo el contenido del mensaje*/
@@ -89,7 +87,7 @@ body{
 	margin-left: 10px;
     margin-right: 10px;
 	color: black;
-	background: rgba(255, 255, 255, .2);
+	background: rgba(255, 255, 255, 0.527);
 
 }
 /* aumento el tamaño de la fuente en el título */
